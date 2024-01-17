@@ -1,0 +1,339 @@
+body{
+    padding: 10px;
+    background-color: black;
+    position: absolute;
+    left: 125px;
+}
+    .main{
+        background: rgb(184,210,215);
+        background: linear-gradient(180deg, rgba(184,210,215,1) 0%, rgba(224,229,230,1) 50%, rgba(184,210,215,1) 100%);
+        min-height: 800px;
+        width: 700px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+        .main h1{
+            padding: 20px;
+        }
+        img.isvana{
+            width: 200px;
+            height: 180px;
+            position: relative;
+            top: 50px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        #informations{
+            display: inline-block;
+            vertical-align: top;
+        }
+        ul{
+            padding: 20px;
+        }
+            ul li{
+                display: inline-block;
+            }
+        h1{
+        padding: 10px;
+        font-family: sans-serif;
+        color: #303d68;
+        font-size: 50px;
+        
+        }
+        .languages{
+            display: inline-block;
+            width: 300px;
+        }
+        .projects{
+            vertical-align: top;
+            display: inline-block;
+            background-color: #e0e5e6;
+            width: 354px;
+            padding: 0 20px 0 20px;
+        }
+        .projects #title{
+            margin-left: 90px;
+        }
+        .personalWebsites{
+            margin: 20px 0 0 150px;
+            
+        }
+            .personalWebsites img{
+                width: 25px;
+                height: 25px
+            }
+        .getToKnow{
+            background-color: #e0e5e6;
+            padding: 20px;
+        }
+            .getToKnow h2{
+                margin-left: 80px;
+            }
+        hr{
+            border: 2px solid #303d68;
+            margin: 0 0 0 20px;
+        }
+        #goal{
+            padding: 0px 0px 0px 20px;
+        }
+        h2{
+            margin-left: 20px;
+        }
+/* Mobile Resolution */
+@media only screen and (max-width: 480px){
+    body{
+    left: 0;
+    margin: 5px 5px 5px 0;
+    }
+        .main{
+            width: 550px;
+            padding: 10px;
+            border-radius: 10px;
+            height: auto;
+        }
+            .main h1{
+                padding: 0px;
+            }
+            img.isvana{
+                width: 300px;
+                height: 250px;
+                position: relative;
+                top: 10px;
+                left: 25%;
+            }
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            #informations{
+                position: relative;
+                left: 5%;
+            }
+            ul{
+                padding: 20px;
+            }
+                ul li{
+                    display: inline-block;
+                    font-size: 18px;
+                }
+            h1{
+                font-size: 55px;
+                position: relative;
+                left: 14%;
+            }
+            .languages{    
+                width: 500px;
+                text-align: center;
+                margin-left: 20px;
+            }
+                .languages h2{    
+                    font-size: 25px;
+                }
+            .projects{
+                width: 500px;
+                margin-left: 10px;
+                padding: 0 20px 0 20px;
+                text-align: center;
+            }
+            .projects #title{
+                margin-left: 10px;
+                font-size: 25px;
+            }
+            .projects p{
+                font-size: 20px;
+            }
+            .projects h5{
+                font-size: 20px;
+            }
+            .personalWebsites{
+                margin: 20px;
+                text-align: center;
+            }
+                .personalWebsites img{
+                    width:60px;
+                    height: 60px;
+                    padding: 5px;
+                }
+                .personalWebsites a{
+                    font-size: 40px;
+                }
+            .getToKnow{
+                background-color: #e0e5e6;
+                padding: 20px;
+                margin: 0 10px;
+                text-align: center;
+            }
+                .getToKnow h2{
+                    margin-left: 20px;
+                    font-size: 30px;
+                }
+                .getToKnow p{
+                    font-size: 20px;
+                }
+            hr{
+                border: 2px solid #303d68;
+                margin: 0 0 0 10px;
+            }
+            #goal{
+                font-size: 18px;
+                position: relative;
+                left: 10%;
+            }
+            h2{
+                margin-left: 10px;
+            }
+}
+/* Tablet Resolution */
+@media only screen and (min-width: 481px){
+body{
+    position: absolute;
+    left: 25px;
+    margin: 10px 10px 10px 0;
+}
+        .main{
+            width: 650px;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+            .main h1{
+                padding: 20px;
+            }
+            img.isvana{
+                width: 200px;
+                height: 180px;
+                position: relative;
+                top: 40px;
+                left: 34%;
+            }
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            #informations{
+                position: relative;
+                left: 15%;
+            }
+            ul{
+                padding: 20px;
+            }
+                ul li{
+                    display: inline-block;
+                }
+            h1{
+                font-size: 40px;
+                position: relative;
+                left: 15%;
+                /* margin: 10px; */
+            }
+            .languages{    
+                width: 300px;
+            }
+            .projects{
+                vertical-align: top;
+                display: inline-block;
+                background-color: #e0e5e6;
+                width: 290px;
+                padding: 0 20px 0 20px;
+            }
+            .projects #title{
+                margin-left: 60px;
+            }
+            .personalWebsites{
+                margin: 20px 0 0 150px;
+            }
+                .personalWebsites img{
+                    width: 25px;
+                    height: 25px
+                }
+            .getToKnow{
+                background-color: #e0e5e6;
+                padding: 20px;
+                margin: 0 10px;
+            }
+                .getToKnow h2{
+                    margin-left: 50px;
+                }
+            hr{
+                border: 2px solid #303d68;
+                margin: 0 0 0 10px;
+            }
+            #goal{
+                position: relative;
+                left: 10%;
+            }
+            h2{
+                margin-left: 10px;
+            }
+}
+/* Desktop Resolution */
+@media only screen and (min-width: 1024px){
+body{
+    position: absolute;
+    left: 12%;
+}
+    .main{
+        width: 700px;
+    }
+        .main h1{
+            position: relative;
+            left: 8%;
+        }
+        img.isvana{
+            width: 200px;
+            height: 180px;
+            position: relative;
+            top: 50px;
+            left: 2%;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        #informations{
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+            left: 2%;
+        }
+        ul{
+            padding: 20px;
+        }
+            ul li{
+                display: inline-block;
+            }
+        h1{
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 50px;
+        }
+        .languages{
+            display: inline-block;
+            width: 300px;
+            margin-left: 15px;
+        }
+        .projects{
+            vertical-align: top;
+            display: inline-block;
+            width: 345px;
+            padding: 0 15px 0 15px;
+        }
+        .projects #title{
+            margin-left: 90px;
+        }
+        .personalWebsites{
+            margin: 20px 0 0 150px;
+        }
+            .personalWebsites img{
+                width: 25px;
+                height: 25px
+            }
+            .getToKnow h2{
+                margin-left: 80px;
+            }
+        #goal{
+            padding: 0px 0px 0px 20px;
+        }
+}
